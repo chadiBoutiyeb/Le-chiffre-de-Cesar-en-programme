@@ -13,7 +13,7 @@ int main() {
 
         if(texte[i] >= 'A' && texte[i] <= 'Z') {
 
-            texte[i] = texte[i] + 3;
+            texte[i] = texte[i] + 3; // Chiffrement de César (+3)
 
             if(texte[i] > 'Z') {
                 texte[i] = texte[i] - 26;
